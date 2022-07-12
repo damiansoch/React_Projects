@@ -1,0 +1,23 @@
+.largePicture {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(82, 82, 82);
+  .largePictureContainer {
+    max-width: 90%;
+    max-height: 95%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}

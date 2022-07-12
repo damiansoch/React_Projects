@@ -1,0 +1,25 @@
+.container {
+  max-width: 400px;
+  max-height: 300px;
+  margin: 30px;
+  padding: 10px;
+  text-overflow: ellipsis;
+  text-align: center;
+  h2 {
+    padding-bottom: 15px;
+  }
+  .imgContainer {
+    width: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+  h6 {
+    text-align: left;
+    margin-top: 10px;
+  }
+}
